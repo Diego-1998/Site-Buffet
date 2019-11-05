@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	float: left;
+	width: 100px;
+	height: 90px;
+	margin-left: 120px;
+}
+
+
+.menu{
+	width: 1536px;
+	height: 90px;
+	background: #E77D1C;
+}
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	
+}
+
+.menu ul{
+	text-align: center;
+	line-height: 100px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17px;
+	letter-spacing: 0.5px;
+}
+
+.menu a:hover{
+	color: #E77D1C;
+	background: #fff;
+}
+
+/* Fim do Menu */
+
+.imagens{
+	display: flex;
+}
+.imagens img{
+	width: 308px;
+	height: 270px;
+	flex-wrap: nowrap;
+}
+
+/*fim das imagens */
+
+article h1{
+	text-align: center;
+	margin-top: 20px;
+	color: red;
+	font-family: "Trebuchet MS, Helvetica",sans-serif;
+}
+
+article p{
+	text-align: center;
+	color: red;
+	font-family: "Trebuchet MS, Helvetica",sans-serif;
+	font-size: 20px;
+}
+
+article img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	border-radius: 50px;
+	border: 2px solid lightgray;
+}
+
+article .frango{
+	position: absolute;
+	left: 1345px;
+	top: 373px;
+
+}
+
+article .queijo{
+	position: absolute;
+	left: 1360px;
+	top: 473px;
+}
+/** RodapÃ©*/
+
+.footer{
+	position: absolute;
+	top: 633px;
+	width: 1536px;
+	height: 88px;
+	background: #E77D1C;
+	display: flex;	
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.parte1{
+	width: 510px;
+	height: 88px;	
+	border-right: 2px solid white;
+	font-weight: 900px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+}
+.facebook{
+	font-size: 45px;
+	font-weight: 700;
+}
+.parte2{
+		width: 510px;
+		height: 88px;
+		color: white;
+		border-right: 2px solid white;
+}
+.telefone{
+	background: white;
+	width: 15px;
+	height: 15px;
+	padding: 7px;
+	border-radius: 7px;
+	margin: 5px 0 0 5px;
+}
+.zap{
+	width: 25px;
+	height: 23px;
+	margin-left: 7px;
+}
+
+.parte3{
+		width: 512px;
+		height: 88px;
+}
+
+/****** Inicio sobre nÃ³s ****/
+
+.picanhas{
+	position: absolute;
+	top: 200px;
+	left: 1200px;
+}
+
+.picanha1 {
+ 	width: 140px;
+ 	height: 140px;
+ 	position: absolute;
+ 	top: 140px;
+ 	border-radius: 70px;
+}
+.picanha2{
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+}
+.picanha3{
+	position: absolute;
+	left: 120px;
+	top: 70px;
+	width: 140px;
+	height: 140px;
+	border-radius: 70px;
+}
+
+.sobre{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+}
+.sobre h2{
+	margin-top: 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 28px;
+	color: #E7A90A;
+}
+.sobre p{
+	margin-top: 10px;
+	color: #F50B0B;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+
+.sobre h3{
+	margin-top: 20px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: #E7A90A;
+}
+
+/****** Inicio Cardapios ****/
+
+.fundo{
+	 background-image:url("imagens/fundo2.jpg"); 
+	width: 1536px;
+	height: 290px;
+}
+.elementos{
+	width: 900px;
+	height: 200px;
+	margin: auto;
+	display: flex;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+}
+
+.churrasco1 {
+	position: absolute;
+	top: 195px;
+	left: 425px;
+	border-bottom: 2px double red;
+	
+}
+.churrasco2{
+	position: absolute;
+	top: 195px;
+	left: 655px;
+	border-bottom: 2px double red;
+}
+.churrasco3{
+	position: absolute;
+	top: 195px;
+	left: 897px;
+	border-bottom: 2px double red;
+}
+.churrasco4{
+	position: absolute;
+	top: 195px;
+	left: 1127px;
+	border-bottom: 2px double red;
+}
+
+.fogueira{
+	width: 105px;
+	height: 100px;
+	margin-top: 100px; 
+	margin-left: 100px;
+	background: #FFD700;
+	padding: 25px 15px 0 15px;
+	border-radius: 20px;
+}
+
+.nav{
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Roboto',sans-serif; 
+}
+.nav h3{
+	color: #FFD700;
+}
+.vermelho{
+	color: #FF0000;
+}
+
+.nav p{
+	color: #FF0000;
+	font-size: 20px;
+}
+.orcamento1{
+	position: absolute;
+	top: 580px;
+	left: 630px;
+	font-family: 'Roboto',sans-serif; 
+	
+}
+
+.orcamento{
+	background: #FFD700;
+	padding: 20px 20px 20px 80px;
+	border-radius: 30px 30px 30px 30px;
+	flex-wrap: nowrap;
+}
+.calculadora{
+	position: absolute;
+	left: 20px;	
+	bottom: -10px;
+	width: 45px;
+	height: 40px;	
+}
+/********* Inicio fotos */
+
+.fotos {
+	font-family: 'Roboto',sans-serif;
+}
+.fotos h2{
+	color:#FFD700;
+	text-align: center;
+	margin-top: 20px; 
+}
+.fotos h3{
+	color: #FF0000;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.imagens-churrasco{
+	width: 800px;
+	display: flex;
+}
+.quadrados{
+	width: 250px;
+	height: 170px;
+	flex-wrap: wrap;
+	background: tomato;
+	margin: 20px;
+}
+
+.secao2{
+	display: flex;
+}
+
+.quadrados2{
+	margin: 20px;
+}
+
+.chapa{
+	position: absolute;
+	top: 180px;
+}
+
+/*** Inicio Clientes */
+
+.clientes {
+	width: 800px;
+	margin: 0 auto;
+}
+.clientes h2{
+	font-family: 'Roboto',sans-serif;
+	color: #FFD700;
+	margin-top: 10px;
+	text-align: center;
+}
+.espaÃ§o{
+	margin: 20px;
+}
+
+/*** contato **/
+
+h1{
+	text-align: center;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	background: lightgray;
+	font-family: 'roboto',sans-serif;
+}
+.informaÃ§oes{
+		margin-top: 30px;
+}
+.base {
+	margin: 10px 0 0 50px;
+}
+
+.name{
+	margin-left: 10px;
+}
+
+.cpf{
+	margin-left: 90px;
+}
+
+.rg{
+	margin-left: 98px;
+}
